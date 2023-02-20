@@ -1,0 +1,3 @@
+﻿  IcecreamSandwich.cpp
+C:\Users\Stril\OneDrive\Рабочий стол\C++ Tasks\Part1\Task1\IcecreamSandwich\IcecreamSandwich\IcecreamSandwich.cpp(21,43): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  IcecreamSandwich.vcxproj -> C:\Users\Stril\OneDrive\Рабочий стол\C++ Tasks\Part1\Task1\IcecreamSandwich\x64\Debug\IcecreamSandwich.exe
