@@ -1,0 +1,5 @@
+﻿  SaleCalculator.cpp
+C:\Users\Stril\OneDrive\Рабочий стол\C++ Tasks\Part2\Task2\SaleCalculator\SaleCalculator\SaleCalculator.cpp(25,25): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Stril\OneDrive\Рабочий стол\C++ Tasks\Part2\Task2\SaleCalculator\SaleCalculator\SaleCalculator.cpp(26,26): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Stril\OneDrive\Рабочий стол\C++ Tasks\Part2\Task2\SaleCalculator\SaleCalculator\SaleCalculator.cpp(39,16): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  SaleCalculator.vcxproj -> C:\Users\Stril\OneDrive\Рабочий стол\C++ Tasks\Part2\Task2\SaleCalculator\x64\Debug\SaleCalculator.exe
