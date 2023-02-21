@@ -1,0 +1,6 @@
+﻿  RunSpeed.cpp
+C:\Users\Stril\OneDrive\Рабочий стол\C++ Tasks\Part3\Task1\RunSpeed\RunSpeed\RunSpeed.cpp(25,16): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Stril\OneDrive\Рабочий стол\C++ Tasks\Part3\Task1\RunSpeed\RunSpeed\RunSpeed.cpp(31,34): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Stril\OneDrive\Рабочий стол\C++ Tasks\Part3\Task1\RunSpeed\RunSpeed\RunSpeed.cpp(41,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Stril\OneDrive\Рабочий стол\C++ Tasks\Part3\Task1\RunSpeed\RunSpeed\RunSpeed.cpp(46,18): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  RunSpeed.vcxproj -> C:\Users\Stril\OneDrive\Рабочий стол\C++ Tasks\Part3\Task1\RunSpeed\x64\Debug\RunSpeed.exe
