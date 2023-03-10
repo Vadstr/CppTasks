@@ -1,0 +1,3 @@
+﻿  VerstToMeter.cpp
+C:\Users\Stril\OneDrive\Рабочий стол\C++\Part4\Task1\VerstToMeter\VerstToMeter\VerstToMeter.cpp(5,26): warning C4305: 'initializing': truncation from 'double' to 'float'
+  VerstToMeter.vcxproj -> C:\Users\Stril\OneDrive\Рабочий стол\C++\Part4\Task1\VerstToMeter\x64\Debug\VerstToMeter.exe
