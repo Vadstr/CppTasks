@@ -37,21 +37,20 @@ vector<int> combineArray(vector<int> arr1, vector<int> arr2)
 	int secondArrayIndex = 0;
 	for (int i = 0; i < arr1.size() + arr2.size(); i++)
 	{
-		if (arr1.size() == firstArrayIndex + 1) {
+		if (arr1.size() == firstArrayIndex) {
 			for (secondArrayIndex; secondArrayIndex < arr2.size(); secondArrayIndex++)
 				result.push_back(arr2[secondArrayIndex]);
 			break;
 		}
-		else if (arr2.size() == secondArrayIndex + 1) {
+		else if (arr2.size() == secondArrayIndex) {
 			for (firstArrayIndex; firstArrayIndex < arr1.size(); firstArrayIndex++)
 				result.push_back(arr1[firstArrayIndex]);
 			break;
 		}
-		else {
-			arr1[firstArrayIndex] < arr2[secondArrayIndex] ? 
-				result.push_back(arr1[firstArrayIndex++]) : 
-				result.push_back(arr2[secondArrayIndex++]);
-		}
+		arr1[firstArrayIndex] < arr2[secondArrayIndex] ? 
+			result.push_back(arr1[firstArrayIndex++]) : 
+			result.push_back(arr2[secondArrayIndex++]);
+		
 	}
 
 	return result;

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u041C\u0430\u043C\u0430, \u044F \u0431\u0443\u0434\u0443 \u0434\u0435\u0432\u043E\u043C\\C\u002B\u002B\\Part4\\Task3\\CombineArray\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{01D00708-CBD3-4106-AC8F-FD5977D67C43}|CombineArray\\CombineArray.vcxproj|D:\\\u041C\u0430\u043C\u0430, \u044F \u0431\u0443\u0434\u0443 \u0434\u0435\u0432\u043E\u043C\\C\u002B\u002B\\Part4\\Task3\\CombineArray\\CombineArray\\CombineArray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{01D00708-CBD3-4106-AC8F-FD5977D67C43}|CombineArray\\CombineArray.vcxproj|solutionrelative:CombineArray\\CombineArray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CombineArray.cpp",
+              "DocumentMoniker": "D:\\\u041C\u0430\u043C\u0430, \u044F \u0431\u0443\u0434\u0443 \u0434\u0435\u0432\u043E\u043C\\C\u002B\u002B\\Part4\\Task3\\CombineArray\\CombineArray\\CombineArray.cpp",
+              "RelativeDocumentMoniker": "CombineArray\\CombineArray.cpp",
+              "ToolTip": "D:\\\u041C\u0430\u043C\u0430, \u044F \u0431\u0443\u0434\u0443 \u0434\u0435\u0432\u043E\u043C\\C\u002B\u002B\\Part4\\Task3\\CombineArray\\CombineArray\\CombineArray.cpp",
+              "RelativeToolTip": "CombineArray\\CombineArray.cpp",
+              "ViewState": "AgIAACEAAAAAAAAAAAAqwCwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-01T21:57:11.547Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
