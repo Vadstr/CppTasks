@@ -10,8 +10,8 @@ int main()
 {
     int minValue = 100, maxValue = 999;
     int num, wrongPlace, correct;
-    //num = getRandomNumber(minValue, maxValue);
-	num = 881;
+    num = getRandomNumber(minValue, maxValue);
+	//num = 881;
     string randNum = to_string(num);
     cout << "Try to guess the number" << endl;
     while (true)
@@ -35,7 +35,7 @@ int main()
 
                 if (guessNum[i] == randNum[j]) {
                     num2[j] = guessNum[i];
-                    if (guessNum[i] == randNum[i]) {
+                    if (guessNum[j] == randNum[j]) {
                         correct++;
                         break;
                     }
@@ -52,6 +52,8 @@ int main()
         cout << "Guessed: " << (wrongPlace + correct) << "\tOn right place: " << correct << endl;
     }
     cout << "Congratulation! It`s correct";
+
+    cin >> num;
 }
 
 int getRandomNumber(int min, int max)
