@@ -10,7 +10,8 @@ int main()
 {
     int minValue = 100, maxValue = 999;
     int num, wrongPlace, correct;
-    num = getRandomNumber(minValue, maxValue);
+    //num = getRandomNumber(minValue, maxValue);
+	num = 881;
     string randNum = to_string(num);
     cout << "Try to guess the number" << endl;
     while (true)
@@ -25,14 +26,26 @@ int main()
             continue;
         }
 
-        for (int i = 0; i < guessNum.length(); i++)
-            for (int j = 0; j < randNum.length(); j++)
-                if (guessNum[i] == randNum[j])
-                    if (i == j)
+        string num2 = "aaa";
+        for (int i = 0; i < guessNum.length(); i++) {
+            for (int j = 0; j < randNum.length(); j++) {
+                if (num2[j] != 'a') {
+                    continue;
+                }
+
+                if (guessNum[i] == randNum[j]) {
+                    num2[j] = guessNum[i];
+                    if (guessNum[i] == randNum[i]) {
                         correct++;
-                    else
+                        break;
+                    }
+                    else {
                         wrongPlace++;
-        
+                        break;
+                    }
+                }
+            }
+        }
         if (correct == 3)
             break;
 
